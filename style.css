@@ -1,0 +1,22 @@
+body{
+    background-color:aliceblue;
+}
+
+h1{
+    color:orange;
+}
+.clicked{
+    color: blue;
+}
+
+.resize{
+    background-color:yellowgreen;
+}
+
+.active{
+    color: tomato;
+}
+
+.hidden{
+    display:none;
+}
