@@ -14,4 +14,10 @@ const img = [
 
 const imgRandom = img[Math.floor(Math.random()*img.length)];
 
-console.log(img);
+//console.log(imgRandom);
+
+const bgImage = document.createElement("img");
+
+bgImage.src = `img/${imgRandom}`;
+
+document.body.appendChild(bgImage);

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
@@ -19,15 +19,20 @@
     </form>
     <h2 id="year_month">2022/05/16</h1>
     <h2 id="clock">00:00</h1>
-    <h1 class="hidden" id="greeting"></h1>
+    <!-- <h1 class="hidden" id="greeting"></h1> -->
+    <form id="todo-form">
+      <input type="text" placeholder="To do 할 일을 적어주세요" required="required"/>
+    </form>
+    <ul id="todo-list"></ul>
     <div id="quote">
         <span></span>
         <span></span>
         <span></span>
     </div>
     <script src="js/clock.js"></script>
-    <script src="js/greeting.js"></script>
+    <!-- <script src="js/greeting.js"></script> -->
     <script src="js/quotes.js"></script>
     <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
   </body>
 </html>
